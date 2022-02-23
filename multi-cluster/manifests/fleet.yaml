@@ -1,0 +1,19 @@
+namespace: fleet-mc-manifest-example
+targetCustomizations:
+  - name: dev
+    clusterSelector:
+      matchLabels:
+        env: dev
+    yaml:
+      overlays:
+        # Refers to overlays/scale3 folder
+        - scale3
+
+  - name: local
+      clusterSelector:
+        matchLabels:
+          name: local
+      yaml:
+        overlays:
+          # Refers to overlays/scale3 folder
+          - scale2

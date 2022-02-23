@@ -7,7 +7,7 @@ targetCustomizations:
     yaml:
       overlays:
         # Refers to overlays/scale3 folder
-        - scale3
+      - scale3
 
   - name: local
     clusterSelector:
@@ -16,4 +16,4 @@ targetCustomizations:
     yaml:
       overlays:
         # Refers to overlays/scale3 folder
-        - scale2
+      - scale2

@@ -10,10 +10,10 @@ targetCustomizations:
         - scale3
 
   - name: local
-      clusterSelector:
-        matchLabels:
-          name: local
-      yaml:
-        overlays:
-          # Refers to overlays/scale3 folder
-          - scale2
+    clusterSelector:
+      matchLabels:
+        name: local
+    yaml:
+      overlays:
+        # Refers to overlays/scale3 folder
+        - scale2

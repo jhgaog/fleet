@@ -1,0 +1,3 @@
+resources:
+  - helloworld-deployment.yaml
+  - helloworld-svc.yaml

@@ -2,3 +2,4 @@ resources:
   - ../../base
 patches:
   - patch-helloworld-deployment.yaml
+  - patch-helloworld2-deployment.yaml
